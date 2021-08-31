@@ -1,0 +1,1 @@
+I will be using html to create a copy of the google homepage and maybe the search results page, I think this will be something I can come back to later as I learn more frameworks and more Javascript and add some functionality to this, but for now it will be more of a test in html than anything.
