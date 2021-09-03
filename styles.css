@@ -29,8 +29,9 @@ li {
   text-align: center;
   width: 50%;
 }
-#searchButton {
-  background-color: grey; /* Green */
+
+button {
+  background-color: grey;
   border: black;
   color: white;
   padding: 12px 18px;
@@ -38,5 +39,19 @@ li {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
 
+.nav-link-round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+}
+
+#user-avatar {
+  width:30px;
+  height:30px;
+  border-radius: 50%;
 }
