@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Page Title</title>
-  <meta charset="UTF-8"/>
+  <meta charset="utf-8">
+  <title>Function scope example</title>
 </head>
 <body>
-  <script>
-    // Your JavaScript goes here!
-    console.log("Hello, World!");
-    const admin = "John";
-    const name = admin;
-    alert(name);
 
-    const homePlanet = "Earth";
-    const currentUser = 'ahahahhaha';
+  <script>
+    let names = ['Chris', 'Li Kang', 'Anne', 'Francesca', 'Mustafa', 'Tina', 'Bert', 'Jada']
+let para = document.createElement('p');
+
+let chooseName = function() {
+  let randomNameIndex = Math.floor(Math.random()*names.length)
+  para.textContent = names[randomNameIndex]
+}
+
+
+// Don't edit the code below here!
+const section = document.querySelector('section');
+
+section.innerHTML = ' ';
+
+section.appendChild(para);
 
   </script>
 </body>
